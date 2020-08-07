@@ -4,11 +4,7 @@ if [[ -e $username.txt ]]; then
 printf "\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Saved:\e[0m\e[1;77m %s.txt\n" $username
 
 fi
-
  
-
- 
-
 }
 
  
@@ -17,7 +13,7 @@ scanner() {
 
  
 
-read -p $'\n\e[1;96m[\e[0m\e[1;77m#\e[0m\e[1;96m] Username:\e[0m ' username
+read -p $'\n\e[1;96m[\e[0m\e[1;77m#\e[0m\e[1;96m] Target Username:\e[0m ' username
 
  
 
